@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APECI S.A. | Portal de Exportación Global</title>
+  <meta name="description" content="APECI S.A. — Exportador peruano de espárragos frescos. Abastecemos Europa en contra estación, diciembre a abril. Certificaciones HACCP, SENASA, SGS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-main">APECI</span>
+        <span class="logo-sub">S.A. · Perú</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-tab active" data-section="inicio">Inicio</a></li>
+        <li><a href="#" class="nav-tab" data-section="producto">Producto</a></li>
+        <li><a href="#" class="nav-tab" data-section="logistica">Logística</a></li>
+        <li><a href="#" class="nav-tab" data-section="certificaciones">Certificaciones</a></li>
+        <li><a href="#" class="nav-tab" data-section="costos">Costos</a></li>
+        <li><a href="#" class="nav-tab nav-cta" data-section="contacto">Negociar RFQ</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#" class="nav-tab" data-section="inicio">Inicio</a>
+    <a href="#" class="nav-tab" data-section="producto">Producto</a>
+    <a href="#" class="nav-tab" data-section="logistica">Logística</a>
+    <a href="#" class="nav-tab" data-section="certificaciones">Certificaciones</a>
+    <a href="#" class="nav-tab" data-section="costos">Costos</a>
+    <a href="#" class="nav-tab" data-section="contacto">Negociar RFQ</a>
+  </div>
+
+  <!-- SECTIONS WRAPPER -->
+  <main>
+
+    <!-- ===== INICIO ===== -->
+    <section id="inicio" class="page active">
+      <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+          <div class="badge-pill">
+            <i class="fas fa-award"></i> Exportador Validado · AG-FOOD Colonia
+          </div>
+          <h1>Espárragos Peruanos<br><em>en Contra Estación</em></h1>
+          <p class="hero-sub">Abastecemos el mercado europeo de <strong>diciembre a abril</strong> cuando el hemisferio norte no puede producir. Planta de procesamiento líder en Perú, logística aérea en 18 hrs a Frankfurt.</p>
+          <div class="hero-actions">
+            <button class="btn-primary nav-tab" data-section="contacto">Solicitar Cotización</button>
+            <button class="btn-outline nav-tab" data-section="producto">Ver Ficha Técnica</button>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat">
+            <span class="hstat-num">625</span>
+            <span class="hstat-unit">TM</span>
+            <span class="hstat-label">Capacidad cosecha 2024</span>
+          </div>
+          <div class="hstat-div"></div>
+          <div class="hstat">
+            <span class="hstat-num">18</span>
+            <span class="hstat-unit">hrs</span>
+            <span class="hstat-label">Lima → Frankfurt (aéreo)</span>
+          </div>
+          <div class="hstat-div"></div>
+          <div class="hstat">
+            <span class="hstat-num">5</span>
+            <span class="hstat-unit">meses</span>
+            <span class="hstat-label">Temporada dic – abr</span>
+          </div>
+          <div class="hstat-div"></div>
+          <div class="hstat">
+            <span class="hstat-num">0%</span>
+            <span class="hstat-unit">arancel</span>
+            <span class="hstat-label">TLC Unión Europea</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VENTAJAS -->
+      <div class="section-block">
+        <div class="label-tag">¿Por qué APECI?</div>
+        <h2>Ventaja Competitiva</h2>
+        <div class="cards-grid">
+          <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-snowflake"></i></div>
+            <h3>Contra Estación</h3>
+            <p>Producimos cuando Europa no puede. Ica garantiza espárragos frescos en pleno invierno europeo, de diciembre a abril.</p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-plane"></i></div>
+            <h3>Logística Aérea</h3>
+            <p>18 horas de Lima a Frankfurt vía Lufthansa. Producto fresco entregado con cadena de frío ininterrumpida 3°C–5°C.</p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-certificate"></i></div>
+            <h3>Certificaciones EU</h3>
+            <p>HACCP-USA, SENASA, SGS, CBI-Holanda y DIGEMID. Cumplimiento total con estándares fitosanitarios de la Unión Europea.</p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Crecimiento Sostenido</h3>
+            <p>Capacidad de incrementar producción 8% por cosecha. Contratos escalonados disponibles para asegurar volumen a largo plazo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTO ===== -->
+    <section id="producto" class="page">
+      <div class="section-block">
+        <div class="label-tag">Ficha Técnica</div>
+        <h2>Espárrago Fresco de Exportación</h2>
+
+        <div class="two-col">
+          <div>
+            <div class="spec-table">
+              <h4>Características del Turión</h4>
+              <table>
+                <tr><td>Calibre</td><td><strong>17.4 – 22.2 mm</strong></td></tr>
+                <tr><td>Diámetro del turión</td><td><strong>17.7 mm</strong></td></tr>
+                <tr><td>Color</td><td><strong>Verde intenso</strong></td></tr>
+                <tr><td>Presentación</td><td><strong>Cajas 5 kg · caja telescópica</strong></td></tr>
+                <tr><td>Troqueles</td><td><strong>2 por lavado visible</strong></td></tr>
+                <tr><td>Margen de error</td><td><strong>± 5%</strong></td></tr>
+              </table>
+            </div>
+            <div class="spec-table" style="margin-top:1.5rem">
+              <h4>Composición Nutricional (por 100g)</h4>
+              <table>
+                <tr><td>Proteína</td><td><strong>2.8 g</strong></td></tr>
+                <tr><td>Calcio</td><td><strong>35 mg</strong></td></tr>
+                <tr><td>Fibra</td><td><strong>1.6 g</strong></td></tr>
+              </table>
+            </div>
+            <div class="spec-table" style="margin-top:1.5rem">
+              <h4>Condiciones de Conservación</h4>
+              <table>
+                <tr><td>Temperatura</td><td><strong>3°C – 5°C</strong></td></tr>
+                <tr><td>Humedad relativa</td><td><strong>85% – 90%</strong></td></tr>
+              </table>
+            </div>
+          </div>
+          <div>
+            <div class="chart-card">
+              <h4>Proyección de Oferta Mensual 2024</h4>
+              <canvas id="productionChart"></canvas>
+              <p class="chart-note">Total temporada: <strong>625 TM</strong> · Incremento estimado 8% por cosecha</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOGÍSTICA ===== -->
+    <section id="logistica" class="page">
+      <div class="section-block">
+        <div class="label-tag">Condiciones Comerciales</div>
+        <h2>Logística y Términos de Venta</h2>
+
+        <div class="logistics-grid">
+          <div class="logi-card accent">
+            <div class="logi-icon"><i class="fas fa-ship"></i></div>
+            <div>
+              <h4>Incoterm</h4>
+              <p class="logi-val">FOB Puerto del Callao</p>
+              <p class="logi-desc">El vendedor asume todos los costos hasta el embarque. ICC 2020.</p>
+            </div>
+          </div>
+          <div class="logi-card">
+            <div class="logi-icon"><i class="fas fa-credit-card"></i></div>
+            <div>
+              <h4>Condición de Pago</h4>
+              <p class="logi-val">Carta de Crédito Irrevocable</p>
+              <p class="logi-desc">Plazo 90 días. Banco confirmador de primera línea.</p>
+            </div>
+          </div>
+          <div class="logi-card">
+            <div class="logi-icon"><i class="fas fa-thermometer-half"></i></div>
+            <div>
+              <h4>Cadena de Frío</h4>
+              <p class="logi-val">3°C – 5°C | HR 85–90%</p>
+              <p class="logi-desc">Monitoreo continuo desde chacra hasta destino final.</p>
+            </div>
+          </div>
+          <div class="logi-card">
+            <div class="logi-icon"><i class="fas fa-plane-departure"></i></div>
+            <div>
+              <h4>Transporte Aéreo</h4>
+              <p class="logi-val">Lima → Frankfurt · 18 hrs</p>
+              <p class="logi-desc">Vía Lufthansa. Lima–Caracas–Frankfurt. Producto fresco garantizado.</p>
+            </div>
+          </div>
+          <div class="logi-card">
+            <div class="logi-icon"><i class="fas fa-truck"></i></div>
+            <div>
+              <h4>Flete Terrestre</h4>
+              <p class="logi-val">USD 15 / TM</p>
+              <p class="logi-desc">Ica → Callao en camión refrigerado.</p>
+            </div>
+          </div>
+          <div class="logi-card">
+            <div class="logi-icon"><i class="fas fa-box-open"></i></div>
+            <div>
+              <h4>Contenedor Refrigerado</h4>
+              <p class="logi-val">USD 2,890 / contenedor LDC</p>
+              <p class="logi-desc">1 contenedor = 5 TM. Port to Door vía agencia de carga.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="route-banner">
+          <div class="route-step"><i class="fas fa-map-marker-alt"></i><span>Ica, Perú</span><small>Chacra & Planta</small></div>
+          <div class="route-line"></div>
+          <div class="route-step"><i class="fas fa-anchor"></i><span>Callao</span><small>Puerto FOB</small></div>
+          <div class="route-line"></div>
+          <div class="route-step"><i class="fas fa-plane"></i><span>Lima · Lufthansa</span><small>Embarque aéreo</small></div>
+          <div class="route-line"></div>
+          <div class="route-step highlight"><i class="fas fa-city"></i><span>Frankfurt</span><small>Destino final · 18 hrs</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICACIONES ===== -->
+    <section id="certificaciones" class="page">
+      <div class="section-block">
+        <div class="label-tag">Acreditaciones</div>
+        <h2>Certificaciones Internacionales</h2>
+        <p class="section-intro">APECI S.A. cuenta con todas las certificaciones requeridas para acceder al mercado europeo y estadounidense. Cada producto exportado incluye la documentación completa.</p>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-logo"><i class="fas fa-shield-alt"></i></div>
+            <h4>HACCP-USA</h4>
+            <p>Hazard Analysis and Critical Control Points. Sistema de análisis de peligros certificado para mercado norteamericano y europeo.</p>
+          </div>
+          <div class="cert-card">
+            <div class="cert-logo"><i class="fas fa-flask"></i></div>
+            <h4>DIGEMID</h4>
+            <p>Dirección General de Medicamentos, Insumos y Drogas. Autorización sanitaria del Estado peruano.</p>
+          </div>
+          <div class="cert-card">
+            <div class="cert-logo"><i class="fas fa-leaf"></i></div>
+            <h4>SENASA</h4>
+            <p>Servicio Nacional de Sanidad Agraria. Certificado fitosanitario obligatorio para exportar productos agrícolas del Perú.</p>
+          </div>
+          <div class="cert-card">
+            <div class="cert-logo"><i class="fas fa-search"></i></div>
+            <h4>SGS Accredited</h4>
+            <p>Inspección y verificación internacional. Certificado de conformidad reconocido en todos los mercados de la UE.</p>
+          </div>
+          <div class="cert-card">
+            <div class="cert-logo"><i class="fas fa-globe-europe"></i></div>
+            <h4>CBI-Holanda</h4>
+            <p>Centro de Promoción de Importaciones (IPO). Programa de Cooperación Internacional IEPP para países en desarrollo.</p>
+          </div>
+          <div class="cert-card">
+            <div class="cert-logo"><i class="fas fa-file-alt"></i></div>
+            <h4>Certificado de Origen</h4>
+            <p>Formato A — Sistema Generalizado de Preferencias (SGP). Arancel 0% bajo TLC con la Unión Europea.</p>
+          </div>
+        </div>
+
+        <div class="docs-banner">
+          <h4><i class="fas fa-folder-open"></i> Documentos incluidos en cada exportación</h4>
+          <div class="docs-list">
+            <span><i class="fas fa-check"></i> Factura Comercial</span>
+            <span><i class="fas fa-check"></i> Packing List</span>
+            <span><i class="fas fa-check"></i> Bill of Lading</span>
+            <span><i class="fas fa-check"></i> Certificado SENASA</span>
+            <span><i class="fas fa-check"></i> Certificado de Origen</span>
+            <span><i class="fas fa-check"></i> Certificado SGS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COSTOS ===== -->
+    <section id="costos" class="page">
+      <div class="section-block">
+        <div class="label-tag">Información Comercial</div>
+        <h2>Estructura de Costos</h2>
+        <p class="section-intro">Datos internos de referencia para la negociación. Base: caja de 5 kg acondicionada para exportación.</p>
+
+        <div class="cost-grid">
+          <div class="cost-card">
+            <span class="cost-label">Costo Variable</span>
+            <span class="cost-val">USD 5.30</span>
+            <span class="cost-desc">por caja (chacra, acondicionada)</span>
+          </div>
+          <div class="cost-card">
+            <span class="cost-label">Costo Fijo Unitario</span>
+            <span class="cost-val">USD 0.29</span>
+            <span class="cost-desc">gastos generales por caja</span>
+          </div>
+          <div class="cost-card accent-cost">
+            <span class="cost-label">Costo Base Total</span>
+            <span class="cost-val">USD 5.59</span>
+            <span class="cost-desc">costo mínimo por caja de 5 kg</span>
+          </div>
+          <div class="cost-card">
+            <span class="cost-label">Costo Fijo por Embarque</span>
+            <span class="cost-val">USD 150</span>
+            <span class="cost-desc">por operación de exportación</span>
+          </div>
+        </div>
+
+        <div class="price-range">
+          <h4>Rango de Precios FOB (caja 5 kg)</h4>
+          <div class="price-bar">
+            <div class="pr-seg red"><span>USD 6.9</span><small>Mínimo</small></div>
+            <div class="pr-seg yellow"><span>USD 7.5–8.5</span><small>Aceptable</small></div>
+            <div class="pr-seg green"><span>USD 8.9+</span><small>Objetivo + comisión</small></div>
+          </div>
+        </div>
+
+        <div class="note-box">
+          <i class="fas fa-info-circle"></i>
+          <p>El precio de referencia en el mercado de EE.UU. es <strong>USD 6.9 FOB</strong>. El objetivo para el mercado europeo (mayor rentabilidad) es superar <strong>USD 8.9 FOB</strong>. Arancel en la UE: <strong>0% (TLC)</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="page">
+      <div class="section-block">
+        <div class="label-tag">Negociación</div>
+        <h2>Solicitar RFQ</h2>
+        <p class="section-intro">Complete el formulario para iniciar la negociación de un contrato de compraventa internacional. Nuestro representante en Europa le contactará en menos de 48 horas.</p>
+
+        <div class="contact-layout">
+          <div class="contact-form">
+            <div class="form-grid">
+              <div class="form-field">
+                <label>Empresa Compradora *</label>
+                <input type="text" placeholder="Ej. Royal Shul GmbH">
+              </div>
+              <div class="form-field">
+                <label>País *</label>
+                <input type="text" placeholder="Ej. Alemania">
+              </div>
+              <div class="form-field">
+                <label>Nombre del Representante *</label>
+                <input type="text" placeholder="Nombre completo">
+              </div>
+              <div class="form-field">
+                <label>Correo Electrónico *</label>
+                <input type="email" placeholder="contacto@empresa.com">
+              </div>
+              <div class="form-field full">
+                <label>Volumen Requerido (TM) *</label>
+                <select>
+                  <option value="">Seleccione un rango...</option>
+                  <option>Menos de 50 TM</option>
+                  <option>50 – 125 TM (1 mes)</option>
+                  <option>125 – 300 TM (2-3 meses)</option>
+                  <option>300 – 625 TM (temporada completa)</option>
+                </select>
+              </div>
+              <div class="form-field full">
+                <label>Incoterm Preferido</label>
+                <div class="radio-group">
+                  <label class="radio-opt"><input type="radio" name="incoterm" value="FOB" checked> FOB Callao</label>
+                  <label class="radio-opt"><input type="radio" name="incoterm" value="CIF"> CIF Frankfurt</label>
+                  <label class="radio-opt"><input type="radio" name="incoterm" value="otro"> A negociar</label>
+                </div>
+              </div>
+              <div class="form-field full">
+                <label>Mensaje o Condiciones Especiales</label>
+                <textarea rows="4" placeholder="Indique requisitos de calidad, periodicidad de entregas, términos de pago preferidos..."></textarea>
+              </div>
+            </div>
+            <button class="btn-primary btn-submit" onclick="submitForm()">
+              <i class="fas fa-paper-plane"></i> Enviar Solicitud de Cotización
+            </button>
+            <p class="form-legal">Su información es confidencial y será usada únicamente para fines de negociación comercial.</p>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-box">
+              <h4>Representación en Europa</h4>
+              <p><i class="fas fa-user"></i> Pablo — Negociador APECI S.A.</p>
+              <p><i class="fas fa-hotel"></i> Hotel Golden Tulip, Colonia</p>
+              <p><i class="fas fa-calendar"></i> Reunión: 14 de Octubre, 2024</p>
+            </div>
+            <div class="contact-box">
+              <h4>Sede Principal</h4>
+              <p><i class="fas fa-map-marker-alt"></i> Ica, Perú</p>
+              <p><i class="fas fa-ship"></i> Puerto de Embarque: Callao</p>
+              <p><i class="fas fa-globe"></i> Participante AG-FOOD Colonia</p>
+            </div>
+            <div class="contact-box highlight-box">
+              <h4><i class="fas fa-handshake"></i> ¿Por qué negociar con APECI?</h4>
+              <ul>
+                <li>Exclusividad en contra estación europea</li>
+                <li>Contratos escalonados disponibles</li>
+                <li>Experiencia exportadora a EE.UU.</li>
+                <li>Cumplimiento de estándares UE</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-main">APECI</span><span class="logo-sub"> S.A.</span>
+        <p>Asociación de Productores de Espárragos Frescos y en Conserva. Ica, Perú.</p>
+      </div>
+      <div class="footer-links">
+        <span class="nav-tab" data-section="inicio" style="cursor:pointer">Inicio</span>
+        <span class="nav-tab" data-section="producto" style="cursor:pointer">Producto</span>
+        <span class="nav-tab" data-section="logistica" style="cursor:pointer">Logística</span>
+        <span class="nav-tab" data-section="certificaciones" style="cursor:pointer">Certificaciones</span>
+        <span class="nav-tab" data-section="costos" style="cursor:pointer">Costos</span>
+        <span class="nav-tab" data-section="contacto" style="cursor:pointer">Contacto</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 APECI S.A. · Empresa simulada con fines académicos · Proyecto de Negociación Internacional</p>
+    </div>
+  </footer>
+
+  <!-- SUCCESS TOAST -->
+  <div id="toast" class="toast">
+    <i class="fas fa-check-circle"></i> ¡Solicitud enviada! Te contactaremos pronto.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
